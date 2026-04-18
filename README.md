@@ -35,7 +35,7 @@ handles unpaired heterogeneous data, reflecting real-world scenarios.
 ## 🧪 Evaluation
 
 -   Text Accuracy: \~95%
--   Tabular Accuracy: \~80%
+-   Tabular Accuracy: \~85%
 -   Metrics: Accuracy, Precision, Recall, F1, ROC-AUC
 
 ## 🖥️ System Implementation

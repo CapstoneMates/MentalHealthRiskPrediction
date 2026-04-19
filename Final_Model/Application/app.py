@@ -127,11 +127,11 @@ st.markdown("""
 
 st.markdown("""
 <div class="hero-card">
-    <div class="hero-title">🧠 Mental Health Risk Prediction System</div>
+    <div class="hero-title">🧠 Hybrid Mental Health Risk Prediction System</div>
     <div class="hero-subtitle">
-        A hybrid screening prototype using textual and behavioral inputs.
-        Enter user information below to estimate mental health risk, generate a fused score,
-        and detect unusual behavioral patterns.
+        An integrated framework for mental health risk assessment using textual and behavioral inputs.
+        The system performs unified risk scoring through decision-level fusion, detects unusual patterns,
+        and provides interpretable insights for each prediction.
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -518,11 +518,13 @@ if st.button("Predict Mental Health Risk"):
             st.error(f"Error: {e}")
 
             st.markdown("---")
-st.caption("Built as a hybrid mental health screening prototype using text classification, tabular prediction, and anomaly detection.")
+st.caption("Hybrid mental health risk prediction system integrating text classification, behavioral modeling, anomaly detection, and decision-level fusion with explainable outputs.")
 
 with st.sidebar:
-    st.markdown("## Project Summary")
-    st.write("This prototype combines:")
-    st.write("- Text-based mental health signal analysis")
-    st.write("- Behavioral/tabular risk estimation")
-    st.write("- Autoencoder-based anomaly detection")
+    st.markdown("## System Overview")
+    st.write("This system integrates:")
+    st.write("- Text-based mental health risk prediction (NLP model)")
+    st.write("- Behavioral risk estimation using structured data")
+    st.write("- Anomaly detection for identifying unusual patterns")
+    st.write("- Decision-level fusion for unified risk scoring")
+    st.write("- Explainable AI for interpretable insights")
